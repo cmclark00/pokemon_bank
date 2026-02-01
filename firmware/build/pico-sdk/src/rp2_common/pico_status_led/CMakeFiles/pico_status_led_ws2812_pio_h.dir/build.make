@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws281
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h: pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
-pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: /home/corey/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
+pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: _deps/pico_sdk-src/src/rp2_common/pico_status_led/ws2812.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ws2812.pio.h"
-	cd /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/corey/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
+	cd /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/pico_status_led/ws2812.pio /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/codegen
@@ -89,6 +89,6 @@ pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend:
-	cd /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware /home/corey/pico-sdk/src/rp2_common/pico_status_led /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/pico_status_led /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend
 

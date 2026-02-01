@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/corey/pico-sdk/tools/pioasm -I/home/corey/pico-sdk/tools/pioasm/gen -I/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm
+CXX_INCLUDES = -I/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm -I/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen -I/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11
 

@@ -1,0 +1,14 @@
+# Target labels
+ pico_sdk-populate
+# Source files and their labels
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate-complete.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-build.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-configure.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-download.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-install.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-mkdir.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-patch.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-test.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-update.rule

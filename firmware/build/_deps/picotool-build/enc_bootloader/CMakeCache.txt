@@ -245,7 +245,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 PICO_DEBUG_INFO_IN_RELEASE:UNINITIALIZED=OFF
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/home/corey/pico-sdk
+PICO_SDK_PATH:FILEPATH=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src
 
 //No help, variable specified on the command line.
 USE_MBEDTLS:UNINITIALIZED=0

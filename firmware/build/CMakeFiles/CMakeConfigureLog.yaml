@@ -135,25 +135,25 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0"
-      binary: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0"
+      source: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG"
+      binary: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/corey/pico-sdk/cmake"
-      PICO_SDK_PATH: "/home/corey/pico-sdk"
+      CMAKE_MODULE_PATH: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/cmake"
+      PICO_SDK_PATH: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0'
+        Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97819/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_97819.dir/build.make CMakeFiles/cmTC_97819.dir/build
-        gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0'
-        Building C object CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o
-        /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e3d8b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e3d8b.dir/build.make CMakeFiles/cmTC_e3d8b.dir/build
+        gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG'
+        Building C object CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o
+        /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -161,8 +161,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (15:14.2.rel1-1) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_97819.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97819.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccEyMQQm.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e3d8b.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e3d8b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccPIkSsO.s
         GNU C17 (15:14.2.rel1-1) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -176,14 +176,14 @@ events:
          /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 83c7bd5e138bdd5cc3a8ac007b488250
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_97819.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o /tmp/ccEyMQQm.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e3d8b.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o /tmp/ccPIkSsO.s
         GNU assembler version 2.42 (arm-none-eabi) using BFD version (2.42-1ubuntu1+23) 2.42
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_97819.elf
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97819.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e3d8b.elf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d8b.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -194,12 +194,12 @@ events:
         gcc version 14.2.1 20241119 (15:14.2.rel1-1) 
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_97819.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_97819.elf.'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc70gAiq.res -X -o cmTC_97819.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e3d8b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e3d8b.elf.'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXXiDLd.res -X -o cmTC_e3d8b.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o
         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_97819.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_97819.elf.'
-        /usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o -o cmTC_97819.elf
-        gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e3d8b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e3d8b.elf.'
+        /usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o -o cmTC_e3d8b.elf
+        gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG'
         
       exitCode: 0
   -
@@ -232,13 +232,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0']
+        ignore line: [Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97819/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_97819.dir/build.make CMakeFiles/cmTC_97819.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0']
-        ignore line: [Building C object CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e3d8b/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e3d8b.dir/build.make CMakeFiles/cmTC_e3d8b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG']
+        ignore line: [Building C object CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -246,8 +246,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (15:14.2.rel1-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_97819.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97819.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccEyMQQm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e3d8b.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e3d8b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccPIkSsO.s]
         ignore line: [GNU C17 (15:14.2.rel1-1) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -261,14 +261,14 @@ events:
         ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 83c7bd5e138bdd5cc3a8ac007b488250]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_97819.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o /tmp/ccEyMQQm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e3d8b.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o /tmp/ccPIkSsO.s]
         ignore line: [GNU assembler version 2.42 (arm-none-eabi) using BFD version (2.42-1ubuntu1+23) 2.42]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_97819.elf]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97819.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e3d8b.elf]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d8b.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -279,27 +279,27 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (15:14.2.rel1-1) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_97819.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_97819.elf.']
-        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc70gAiq.res -X -o cmTC_97819.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e3d8b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e3d8b.elf.']
+        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXXiDLd.res -X -o cmTC_e3d8b.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc70gAiq.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXXiDLd.res] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_97819.elf] ==> ignore
+          arg [cmTC_e3d8b.elf] ==> ignore
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o] ==> ignore
         ignore line: [/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_97819.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_97819.elf.']
-        ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_97819.dir/CMakeCCompilerABI.c.o -o cmTC_97819.elf]
-        ignore line: [gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-dsn5N0']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_e3d8b.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_e3d8b.elf.']
+        ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_e3d8b.dir/CMakeCCompilerABI.c.o -o cmTC_e3d8b.elf]
+        ignore line: [gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-rXrUoG']
         ignore line: []
         ignore line: []
         collapse library dir [/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
@@ -321,26 +321,26 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO"
-      binary: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO"
+      source: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8"
+      binary: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/corey/pico-sdk/cmake"
-      PICO_SDK_PATH: "/home/corey/pico-sdk"
+      CMAKE_MODULE_PATH: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/cmake"
+      PICO_SDK_PATH: "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO'
+        Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce87e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ce87e.dir/build.make CMakeFiles/cmTC_ce87e.dir/build
-        gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO'
-        Building CXX object CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f7cb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f7cb.dir/build.make CMakeFiles/cmTC_3f7cb.dir/build
+        gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8'
+        Building CXX object CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -348,8 +348,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (15:14.2.rel1-1) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ce87e.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ce87e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/cceQyzJB.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_3f7cb.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3f7cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccdEEmED.s
         GNU C++17 (15:14.2.rel1-1) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -366,14 +366,14 @@ events:
          /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 62d8d76f2df2143e0d1fc96211d63a70
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ce87e.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceQyzJB.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_3f7cb.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdEEmED.s
         GNU assembler version 2.42 (arm-none-eabi) using BFD version (2.42-1ubuntu1+23) 2.42
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ce87e.elf
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce87e.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_3f7cb.elf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f7cb.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -384,12 +384,12 @@ events:
         gcc version 14.2.1 20241119 (15:14.2.rel1-1) 
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ce87e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ce87e.elf.'
-         /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2ufbMq.res -X -o cmTC_ce87e.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_3f7cb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_3f7cb.elf.'
+         /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZzXXhC.res -X -o cmTC_3f7cb.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o
         /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ce87e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ce87e.elf.'
-        /usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ce87e.elf
-        gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_3f7cb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_3f7cb.elf.'
+        /usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3f7cb.elf
+        gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8'
         
       exitCode: 0
   -
@@ -428,13 +428,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO']
+        ignore line: [Change Dir: '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce87e/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ce87e.dir/build.make CMakeFiles/cmTC_ce87e.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f7cb/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3f7cb.dir/build.make CMakeFiles/cmTC_3f7cb.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8']
+        ignore line: [Building CXX object CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -442,8 +442,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (15:14.2.rel1-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ce87e.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ce87e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/cceQyzJB.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_3f7cb.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3f7cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccdEEmED.s]
         ignore line: [GNU C++17 (15:14.2.rel1-1) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -460,14 +460,14 @@ events:
         ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 62d8d76f2df2143e0d1fc96211d63a70]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ce87e.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceQyzJB.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_3f7cb.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccdEEmED.s]
         ignore line: [GNU assembler version 2.42 (arm-none-eabi) using BFD version (2.42-1ubuntu1+23) 2.42]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ce87e.elf]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce87e.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_3f7cb.elf]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f7cb.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -478,27 +478,27 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (15:14.2.rel1-1) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/14.2.1/:/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ce87e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ce87e.elf.']
-        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2ufbMq.res -X -o cmTC_ce87e.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_3f7cb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_3f7cb.elf.']
+        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZzXXhC.res -X -o cmTC_3f7cb.elf -L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/14.2.1 -L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2ufbMq.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccZzXXhC.res] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ce87e.elf] ==> ignore
+          arg [cmTC_3f7cb.elf] ==> ignore
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
         ignore line: [/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ce87e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ce87e.elf.']
-        ignore line: [/usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_ce87e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ce87e.elf]
-        ignore line: [gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-iREXbO']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_3f7cb.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_3f7cb.elf.']
+        ignore line: [/usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_3f7cb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3f7cb.elf]
+        ignore line: [gmake[1]: Leaving directory '/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/CMakeScratch/TryCompile-TCcUq8']
         ignore line: []
         ignore line: []
         collapse library dir [/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp] ==> [/usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp]

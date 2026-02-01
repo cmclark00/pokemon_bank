@@ -49,10 +49,9 @@ static inline pio_sm_config gb_link_slave_program_get_default_config(uint offset
 #include "hardware/gpio.h"
 #include "hardware/clocks.h"
 // Pin definitions for Game Boy Zero Link Board
-#define GB_PIN_SC   0   // Serial Clock (from Game Boy)
-#define GB_PIN_SI   1   // Serial In (TO Game Boy - we output this)
-#define GB_PIN_SO   2   // Serial Out (FROM Game Boy - we input this)
-#define GB_PIN_SD   3   // SD line (directly directly directly directly directly directly
+#define GB_PIN_SC   2   // Serial Clock (from Game Boy)
+#define GB_PIN_SI   0   // Serial In (TO Game Boy - we output this)
+#define GB_PIN_SO   1   // Serial Out (FROM Game Boy - we input this)
 static inline void gb_link_slave_program_init(PIO pio, uint sm, uint offset) {
     pio_sm_config c = gb_link_slave_program_get_default_config(offset);
     // OUT pin: GP1 (SI - data to Game Boy)

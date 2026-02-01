@@ -202,7 +202,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc \
- /home/corey/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h \
  /usr/include/assert.h \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/15/iostream \

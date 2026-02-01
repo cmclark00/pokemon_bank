@@ -1,7 +1,7 @@
 CMakeFiles/pioasm.dir/hex_output.cpp.o: \
- /home/corey/pico-sdk/tools/pioasm/hex_output.cpp \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/hex_output.cpp \
  /usr/include/stdc-predef.h \
- /home/corey/pico-sdk/tools/pioasm/output_format.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/output_format.h \
  /usr/include/c++/15/cstdint \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -171,7 +171,7 @@ CMakeFiles/pioasm.dir/hex_output.cpp.o: \
  /usr/include/c++/15/bits/atomic_base.h \
  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
  /usr/include/c++/15/backward/auto_ptr.h \
- /home/corey/pico-sdk/tools/pioasm/pio_enums.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_enums.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
  /usr/include/c++/15/bits/ios_base.h \

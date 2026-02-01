@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/corey/pico-sdk/tools/pioasm
+source_dir=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm
 work_dir=
 

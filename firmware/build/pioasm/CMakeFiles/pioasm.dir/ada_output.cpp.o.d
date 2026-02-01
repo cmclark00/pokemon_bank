@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/ada_output.cpp.o: \
- /home/corey/pico-sdk/tools/pioasm/ada_output.cpp \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/ada_output.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15/algorithm \
  /usr/include/c++/15/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
@@ -167,7 +167,7 @@ CMakeFiles/pioasm.dir/ada_output.cpp.o: \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
  /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/sstream \
  /usr/include/c++/15/bits/sstream.tcc \
- /home/corey/pico-sdk/tools/pioasm/output_format.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/output_format.h \
  /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -193,11 +193,11 @@ CMakeFiles/pioasm.dir/ada_output.cpp.o: \
  /usr/include/c++/15/bits/atomic_base.h \
  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
  /usr/include/c++/15/backward/auto_ptr.h \
- /home/corey/pico-sdk/tools/pioasm/pio_enums.h \
- /home/corey/pico-sdk/tools/pioasm/pio_disassembler.h \
- /home/corey/pico-sdk/tools/pioasm/pio_types.h /usr/include/c++/15/set \
- /usr/include/c++/15/bits/stl_set.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_enums.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_disassembler.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_types.h \
+ /usr/include/c++/15/set /usr/include/c++/15/bits/stl_set.h \
  /usr/include/c++/15/bits/stl_multiset.h /usr/include/c++/15/utility \
  /usr/include/c++/15/bits/stl_relops.h \
- /home/corey/pico-sdk/tools/pioasm/gen/location.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/location.h \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/version.h

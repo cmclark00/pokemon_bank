@@ -3,12 +3,12 @@
 
 elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf/addresses.h
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf/elf.h
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf/elf_file.h
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf2uf2/elf2uf2.h
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/errors/errors.h
- /home/corey/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h

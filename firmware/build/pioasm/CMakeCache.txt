@@ -259,7 +259,7 @@ pioasm_BINARY_DIR:STATIC=/home/corey/.openclaw/workspace/clawd_project/clawd/pro
 pioasm_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-pioasm_SOURCE_DIR:STATIC=/home/corey/pico-sdk/tools/pioasm
+pioasm_SOURCE_DIR:STATIC=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm
 
 
 ########################
@@ -330,7 +330,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/corey/pico-sdk/tools/pioasm
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR

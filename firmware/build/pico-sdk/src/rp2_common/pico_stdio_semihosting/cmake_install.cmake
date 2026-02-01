@@ -1,4 +1,4 @@
-# Install script for directory: /home/corey/pico-sdk/src/rp2_common/pico_stdio_semihosting
+# Install script for directory: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_semihosting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

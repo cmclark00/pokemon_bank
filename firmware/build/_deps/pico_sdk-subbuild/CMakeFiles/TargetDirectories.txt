@@ -1,0 +1,3 @@
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/CMakeFiles/edit_cache.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-subbuild/CMakeFiles/rebuild_cache.dir

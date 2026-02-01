@@ -211,7 +211,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
  /usr/include/c++/15/bits/stl_numeric.h /usr/include/c++/15/cinttypes \
  /usr/include/inttypes.h \
- /home/corey/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picobin_headers/include/boot/picobin.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdbool.h \
  /usr/include/c++/15/map /usr/include/c++/15/bits/stl_tree.h \
  /usr/include/c++/15/bits/stl_map.h \
@@ -227,9 +227,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf/addresses.h \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/15/stdlib.h /usr/include/assert.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/private_access.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/build_info.h \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h \
@@ -239,24 +239,24 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
- /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/aes.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/error.h \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/bintool.h \
  /usr/include/c++/15/functional /usr/include/c++/15/bits/std_function.h \
  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/metadata.h \

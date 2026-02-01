@@ -35,23 +35,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  15 .comment      0000004c  00000000  00000000  0000f268  2**0
                   CONTENTS, READONLY
- 16 .debug_info   0003e981  00000000  00000000  0000f2b4  2**0
+ 16 .debug_info   0003e980  00000000  00000000  0000f2b4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_abbrev 0000ae0f  00000000  00000000  0004dc35  2**0
+ 17 .debug_abbrev 0000ae0f  00000000  00000000  0004dc34  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_loclists 000265c1  00000000  00000000  00058a44  2**0
+ 18 .debug_loclists 000265c1  00000000  00000000  00058a43  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  19 .debug_aranges 00001a00  00000000  00000000  0007f008  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_rnglists 00005a56  00000000  00000000  00080a08  2**0
+ 20 .debug_rnglists 00005a62  00000000  00000000  00080a08  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line   0002c4c1  00000000  00000000  0008645e  2**0
+ 21 .debug_line   00032705  00000000  00000000  0008646a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_str    0000a411  00000000  00000000  000b291f  2**0
+ 22 .debug_str    0000b3b3  00000000  00000000  000b8b6f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_frame  00003880  00000000  00000000  000bcd30  2**2
+ 23 .debug_frame  00003880  00000000  00000000  000c3f24  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_line_str 000002f6  00000000  00000000  000c05b0  2**0
+ 24 .debug_line_str 00000557  00000000  00000000  000c77a4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pokemon_bank.elf:     file format elf32-littlearm
@@ -4413,70 +4413,70 @@ Disassembly of section .text:
 10002536:	2380      	movs	r3, #128	@ 0x80
 10002538:	025b      	lsls	r3, r3, #9
 1000253a:	9302      	str	r3, [sp, #8]
-1000253c:	0003      	movs	r3, r0
-1000253e:	3304      	adds	r3, #4
-10002540:	01c2      	lsls	r2, r0, #7
-10002542:	031b      	lsls	r3, r3, #12
-10002544:	4313      	orrs	r3, r2
-10002546:	4a37      	ldr	r2, [pc, #220]	@ (10002624 <gb_link_init+0x140>)
-10002548:	602c      	str	r4, [r5, #0]
-1000254a:	4013      	ands	r3, r2
-1000254c:	2280      	movs	r2, #128	@ 0x80
-1000254e:	05d2      	lsls	r2, r2, #23
-10002550:	4313      	orrs	r3, r2
-10002552:	9303      	str	r3, [sp, #12]
-10002554:	4b34      	ldr	r3, [pc, #208]	@ (10002628 <gb_link_init+0x144>)
-10002556:	606e      	str	r6, [r5, #4]
-10002558:	9305      	str	r3, [sp, #20]
-1000255a:	4b34      	ldr	r3, [pc, #208]	@ (1000262c <gb_link_init+0x148>)
-1000255c:	60a8      	str	r0, [r5, #8]
-1000255e:	9304      	str	r3, [sp, #16]
-10002560:	4b33      	ldr	r3, [pc, #204]	@ (10002630 <gb_link_init+0x14c>)
-10002562:	4681      	mov	r9, r0
-10002564:	469a      	mov	sl, r3
-10002566:	44a2      	add	sl, r4
-10002568:	4653      	mov	r3, sl
-1000256a:	0d1d      	lsrs	r5, r3, #20
-1000256c:	3506      	adds	r5, #6
-1000256e:	b2ed      	uxtb	r5, r5
+1000253c:	4b39      	ldr	r3, [pc, #228]	@ (10002624 <gb_link_init+0x140>)
+1000253e:	01c2      	lsls	r2, r0, #7
+10002540:	9305      	str	r3, [sp, #20]
+10002542:	0003      	movs	r3, r0
+10002544:	3304      	adds	r3, #4
+10002546:	031b      	lsls	r3, r3, #12
+10002548:	4313      	orrs	r3, r2
+1000254a:	4a37      	ldr	r2, [pc, #220]	@ (10002628 <gb_link_init+0x144>)
+1000254c:	602c      	str	r4, [r5, #0]
+1000254e:	4013      	ands	r3, r2
+10002550:	2284      	movs	r2, #132	@ 0x84
+10002552:	05d2      	lsls	r2, r2, #23
+10002554:	4313      	orrs	r3, r2
+10002556:	9303      	str	r3, [sp, #12]
+10002558:	4b34      	ldr	r3, [pc, #208]	@ (1000262c <gb_link_init+0x148>)
+1000255a:	606e      	str	r6, [r5, #4]
+1000255c:	9304      	str	r3, [sp, #16]
+1000255e:	4b34      	ldr	r3, [pc, #208]	@ (10002630 <gb_link_init+0x14c>)
+10002560:	60a8      	str	r0, [r5, #8]
+10002562:	469a      	mov	sl, r3
+10002564:	44a2      	add	sl, r4
+10002566:	4653      	mov	r3, sl
+10002568:	0d1d      	lsrs	r5, r3, #20
+1000256a:	3506      	adds	r5, #6
+1000256c:	b2ed      	uxtb	r5, r5
+1000256e:	4681      	mov	r9, r0
 10002570:	0029      	movs	r1, r5
-10002572:	2000      	movs	r0, #0
+10002572:	2002      	movs	r0, #2
 10002574:	f002 f85a 	bl	1000462c <gpio_set_function>
 10002578:	2200      	movs	r2, #0
 1000257a:	2101      	movs	r1, #1
-1000257c:	2000      	movs	r0, #0
+1000257c:	2002      	movs	r0, #2
 1000257e:	f002 f86f 	bl	10004660 <gpio_set_pulls>
 10002582:	4643      	mov	r3, r8
-10002584:	2200      	movs	r2, #0
+10002584:	2202      	movs	r2, #2
 10002586:	0031      	movs	r1, r6
 10002588:	9300      	str	r3, [sp, #0]
 1000258a:	0020      	movs	r0, r4
 1000258c:	3301      	adds	r3, #1
 1000258e:	f007 ff15 	bl	1000a3bc <pio_sm_set_consecutive_pindirs>
 10002592:	0029      	movs	r1, r5
-10002594:	2001      	movs	r0, #1
+10002594:	2000      	movs	r0, #0
 10002596:	f002 f849 	bl	1000462c <gpio_set_function>
 1000259a:	2301      	movs	r3, #1
-1000259c:	2201      	movs	r2, #1
+1000259c:	2200      	movs	r2, #0
 1000259e:	9300      	str	r3, [sp, #0]
 100025a0:	0031      	movs	r1, r6
 100025a2:	0020      	movs	r0, r4
 100025a4:	f007 ff0a 	bl	1000a3bc <pio_sm_set_consecutive_pindirs>
 100025a8:	0029      	movs	r1, r5
-100025aa:	2002      	movs	r0, #2
+100025aa:	2001      	movs	r0, #1
 100025ac:	f002 f83e 	bl	1000462c <gpio_set_function>
 100025b0:	2200      	movs	r2, #0
 100025b2:	2101      	movs	r1, #1
-100025b4:	2002      	movs	r0, #2
+100025b4:	2001      	movs	r0, #1
 100025b6:	f002 f853 	bl	10004660 <gpio_set_pulls>
 100025ba:	4643      	mov	r3, r8
 100025bc:	0031      	movs	r1, r6
 100025be:	9300      	str	r3, [sp, #0]
-100025c0:	2202      	movs	r2, #2
+100025c0:	2201      	movs	r2, #1
 100025c2:	0020      	movs	r0, r4
 100025c4:	3301      	adds	r3, #1
 100025c6:	f007 fef9 	bl	1000a3bc <pio_sm_set_consecutive_pindirs>
-100025ca:	2205      	movs	r2, #5
+100025ca:	2206      	movs	r2, #6
 100025cc:	4b19      	ldr	r3, [pc, #100]	@ (10002634 <gb_link_init+0x150>)
 100025ce:	0031      	movs	r1, r6
 100025d0:	18e3      	adds	r3, r4, r3
@@ -4491,9 +4491,9 @@ Disassembly of section .text:
 100025e4:	4199      	sbcs	r1, r3
 100025e6:	4814      	ldr	r0, [pc, #80]	@ (10002638 <gb_link_init+0x154>)
 100025e8:	f005 ffb0 	bl	1000854c <__wrap_printf>
-100025ec:	2302      	movs	r3, #2
-100025ee:	2201      	movs	r2, #1
-100025f0:	2100      	movs	r1, #0
+100025ec:	2301      	movs	r3, #1
+100025ee:	2200      	movs	r2, #0
+100025f0:	2102      	movs	r1, #2
 100025f2:	4812      	ldr	r0, [pc, #72]	@ (1000263c <gb_link_init+0x158>)
 100025f4:	f005 ffaa 	bl	1000854c <__wrap_printf>
 100025f8:	e003      	b.n	10002602 <gb_link_init+0x11e>
@@ -4514,8 +4514,8 @@ Disassembly of section .text:
 1000261a:	f007 fde9 	bl	1000a1f0 <pio_sm_unclaim>
 1000261e:	e7ef      	b.n	10002600 <gb_link_init+0x11c>
 10002620:	1000c8f8 	.word	0x1000c8f8
-10002624:	80ffffff 	.word	0x80ffffff
-10002628:	40110401 	.word	0x40110401
+10002624:	40108000 	.word	0x40108000
+10002628:	80ffffff 	.word	0x80ffffff
 1000262c:	10830000 	.word	0x10830000
 10002630:	afe00000 	.word	0xafe00000
 10002634:	00002038 	.word	0x00002038

@@ -6,8 +6,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "/home/corey/pico-sdk/tools/pioasm")
-  file(MAKE_DIRECTORY "/home/corey/pico-sdk/tools/pioasm")
+if(NOT EXISTS "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm")
+  file(MAKE_DIRECTORY "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
   "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm"

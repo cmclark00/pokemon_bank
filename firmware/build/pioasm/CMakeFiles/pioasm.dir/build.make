@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/corey/pico-sdk/tools/pioasm
+CMAKE_SOURCE_DIR = /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm
@@ -70,147 +70,147 @@ CMakeFiles/pioasm.dir/codegen:
 .PHONY : CMakeFiles/pioasm.dir/codegen
 
 CMakeFiles/pioasm.dir/main.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/main.cpp.o: /home/corey/pico-sdk/tools/pioasm/main.cpp
+CMakeFiles/pioasm.dir/main.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/main.cpp
 CMakeFiles/pioasm.dir/main.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/main.cpp.o -MF CMakeFiles/pioasm.dir/main.cpp.o.d -o CMakeFiles/pioasm.dir/main.cpp.o -c /home/corey/pico-sdk/tools/pioasm/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/main.cpp.o -MF CMakeFiles/pioasm.dir/main.cpp.o.d -o CMakeFiles/pioasm.dir/main.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/main.cpp
 
 CMakeFiles/pioasm.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/main.cpp > CMakeFiles/pioasm.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/main.cpp > CMakeFiles/pioasm.dir/main.cpp.i
 
 CMakeFiles/pioasm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/main.cpp -o CMakeFiles/pioasm.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/main.cpp -o CMakeFiles/pioasm.dir/main.cpp.s
 
 CMakeFiles/pioasm.dir/pio_assembler.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/pio_assembler.cpp.o: /home/corey/pico-sdk/tools/pioasm/pio_assembler.cpp
+CMakeFiles/pioasm.dir/pio_assembler.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_assembler.cpp
 CMakeFiles/pioasm.dir/pio_assembler.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/pio_assembler.cpp.o -MF CMakeFiles/pioasm.dir/pio_assembler.cpp.o.d -o CMakeFiles/pioasm.dir/pio_assembler.cpp.o -c /home/corey/pico-sdk/tools/pioasm/pio_assembler.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/pio_assembler.cpp.o -MF CMakeFiles/pioasm.dir/pio_assembler.cpp.o.d -o CMakeFiles/pioasm.dir/pio_assembler.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_assembler.cpp
 
 CMakeFiles/pioasm.dir/pio_assembler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/pio_assembler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/pio_assembler.cpp > CMakeFiles/pioasm.dir/pio_assembler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_assembler.cpp > CMakeFiles/pioasm.dir/pio_assembler.cpp.i
 
 CMakeFiles/pioasm.dir/pio_assembler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/pio_assembler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/pio_assembler.cpp -o CMakeFiles/pioasm.dir/pio_assembler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_assembler.cpp -o CMakeFiles/pioasm.dir/pio_assembler.cpp.s
 
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/pio_disassembler.cpp.o: /home/corey/pico-sdk/tools/pioasm/pio_disassembler.cpp
+CMakeFiles/pioasm.dir/pio_disassembler.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_disassembler.cpp
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/pio_disassembler.cpp.o -MF CMakeFiles/pioasm.dir/pio_disassembler.cpp.o.d -o CMakeFiles/pioasm.dir/pio_disassembler.cpp.o -c /home/corey/pico-sdk/tools/pioasm/pio_disassembler.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/pio_disassembler.cpp.o -MF CMakeFiles/pioasm.dir/pio_disassembler.cpp.o.d -o CMakeFiles/pioasm.dir/pio_disassembler.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_disassembler.cpp
 
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/pio_disassembler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/pio_disassembler.cpp > CMakeFiles/pioasm.dir/pio_disassembler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_disassembler.cpp > CMakeFiles/pioasm.dir/pio_disassembler.cpp.i
 
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/pio_disassembler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/pio_disassembler.cpp -o CMakeFiles/pioasm.dir/pio_disassembler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_disassembler.cpp -o CMakeFiles/pioasm.dir/pio_disassembler.cpp.s
 
 CMakeFiles/pioasm.dir/gen/lexer.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/gen/lexer.cpp.o: /home/corey/pico-sdk/tools/pioasm/gen/lexer.cpp
+CMakeFiles/pioasm.dir/gen/lexer.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/lexer.cpp
 CMakeFiles/pioasm.dir/gen/lexer.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/gen/lexer.cpp.o -MF CMakeFiles/pioasm.dir/gen/lexer.cpp.o.d -o CMakeFiles/pioasm.dir/gen/lexer.cpp.o -c /home/corey/pico-sdk/tools/pioasm/gen/lexer.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/gen/lexer.cpp.o -MF CMakeFiles/pioasm.dir/gen/lexer.cpp.o.d -o CMakeFiles/pioasm.dir/gen/lexer.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/lexer.cpp
 
 CMakeFiles/pioasm.dir/gen/lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/gen/lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/gen/lexer.cpp > CMakeFiles/pioasm.dir/gen/lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/lexer.cpp > CMakeFiles/pioasm.dir/gen/lexer.cpp.i
 
 CMakeFiles/pioasm.dir/gen/lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/gen/lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/gen/lexer.cpp -o CMakeFiles/pioasm.dir/gen/lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/lexer.cpp -o CMakeFiles/pioasm.dir/gen/lexer.cpp.s
 
 CMakeFiles/pioasm.dir/gen/parser.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/gen/parser.cpp.o: /home/corey/pico-sdk/tools/pioasm/gen/parser.cpp
+CMakeFiles/pioasm.dir/gen/parser.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/parser.cpp
 CMakeFiles/pioasm.dir/gen/parser.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/gen/parser.cpp.o -MF CMakeFiles/pioasm.dir/gen/parser.cpp.o.d -o CMakeFiles/pioasm.dir/gen/parser.cpp.o -c /home/corey/pico-sdk/tools/pioasm/gen/parser.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/gen/parser.cpp.o -MF CMakeFiles/pioasm.dir/gen/parser.cpp.o.d -o CMakeFiles/pioasm.dir/gen/parser.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/parser.cpp
 
 CMakeFiles/pioasm.dir/gen/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/gen/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/gen/parser.cpp > CMakeFiles/pioasm.dir/gen/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/parser.cpp > CMakeFiles/pioasm.dir/gen/parser.cpp.i
 
 CMakeFiles/pioasm.dir/gen/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/gen/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/gen/parser.cpp -o CMakeFiles/pioasm.dir/gen/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/parser.cpp -o CMakeFiles/pioasm.dir/gen/parser.cpp.s
 
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/c_sdk_output.cpp.o: /home/corey/pico-sdk/tools/pioasm/c_sdk_output.cpp
+CMakeFiles/pioasm.dir/c_sdk_output.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/c_sdk_output.cpp
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/c_sdk_output.cpp.o -MF CMakeFiles/pioasm.dir/c_sdk_output.cpp.o.d -o CMakeFiles/pioasm.dir/c_sdk_output.cpp.o -c /home/corey/pico-sdk/tools/pioasm/c_sdk_output.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/c_sdk_output.cpp.o -MF CMakeFiles/pioasm.dir/c_sdk_output.cpp.o.d -o CMakeFiles/pioasm.dir/c_sdk_output.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/c_sdk_output.cpp
 
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/c_sdk_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/c_sdk_output.cpp > CMakeFiles/pioasm.dir/c_sdk_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/c_sdk_output.cpp > CMakeFiles/pioasm.dir/c_sdk_output.cpp.i
 
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/c_sdk_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/c_sdk_output.cpp -o CMakeFiles/pioasm.dir/c_sdk_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/c_sdk_output.cpp -o CMakeFiles/pioasm.dir/c_sdk_output.cpp.s
 
 CMakeFiles/pioasm.dir/python_output.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/python_output.cpp.o: /home/corey/pico-sdk/tools/pioasm/python_output.cpp
+CMakeFiles/pioasm.dir/python_output.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/python_output.cpp
 CMakeFiles/pioasm.dir/python_output.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/python_output.cpp.o -MF CMakeFiles/pioasm.dir/python_output.cpp.o.d -o CMakeFiles/pioasm.dir/python_output.cpp.o -c /home/corey/pico-sdk/tools/pioasm/python_output.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/python_output.cpp.o -MF CMakeFiles/pioasm.dir/python_output.cpp.o.d -o CMakeFiles/pioasm.dir/python_output.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/python_output.cpp
 
 CMakeFiles/pioasm.dir/python_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/python_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/python_output.cpp > CMakeFiles/pioasm.dir/python_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/python_output.cpp > CMakeFiles/pioasm.dir/python_output.cpp.i
 
 CMakeFiles/pioasm.dir/python_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/python_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/python_output.cpp -o CMakeFiles/pioasm.dir/python_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/python_output.cpp -o CMakeFiles/pioasm.dir/python_output.cpp.s
 
 CMakeFiles/pioasm.dir/hex_output.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/hex_output.cpp.o: /home/corey/pico-sdk/tools/pioasm/hex_output.cpp
+CMakeFiles/pioasm.dir/hex_output.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/hex_output.cpp
 CMakeFiles/pioasm.dir/hex_output.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/hex_output.cpp.o -MF CMakeFiles/pioasm.dir/hex_output.cpp.o.d -o CMakeFiles/pioasm.dir/hex_output.cpp.o -c /home/corey/pico-sdk/tools/pioasm/hex_output.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/hex_output.cpp.o -MF CMakeFiles/pioasm.dir/hex_output.cpp.o.d -o CMakeFiles/pioasm.dir/hex_output.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/hex_output.cpp
 
 CMakeFiles/pioasm.dir/hex_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/hex_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/hex_output.cpp > CMakeFiles/pioasm.dir/hex_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/hex_output.cpp > CMakeFiles/pioasm.dir/hex_output.cpp.i
 
 CMakeFiles/pioasm.dir/hex_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/hex_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/hex_output.cpp -o CMakeFiles/pioasm.dir/hex_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/hex_output.cpp -o CMakeFiles/pioasm.dir/hex_output.cpp.s
 
 CMakeFiles/pioasm.dir/json_output.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/json_output.cpp.o: /home/corey/pico-sdk/tools/pioasm/json_output.cpp
+CMakeFiles/pioasm.dir/json_output.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/json_output.cpp
 CMakeFiles/pioasm.dir/json_output.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/json_output.cpp.o -MF CMakeFiles/pioasm.dir/json_output.cpp.o.d -o CMakeFiles/pioasm.dir/json_output.cpp.o -c /home/corey/pico-sdk/tools/pioasm/json_output.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/json_output.cpp.o -MF CMakeFiles/pioasm.dir/json_output.cpp.o.d -o CMakeFiles/pioasm.dir/json_output.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/json_output.cpp
 
 CMakeFiles/pioasm.dir/json_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/json_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/json_output.cpp > CMakeFiles/pioasm.dir/json_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/json_output.cpp > CMakeFiles/pioasm.dir/json_output.cpp.i
 
 CMakeFiles/pioasm.dir/json_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/json_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/json_output.cpp -o CMakeFiles/pioasm.dir/json_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/json_output.cpp -o CMakeFiles/pioasm.dir/json_output.cpp.s
 
 CMakeFiles/pioasm.dir/ada_output.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/ada_output.cpp.o: /home/corey/pico-sdk/tools/pioasm/ada_output.cpp
+CMakeFiles/pioasm.dir/ada_output.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/ada_output.cpp
 CMakeFiles/pioasm.dir/ada_output.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/ada_output.cpp.o -MF CMakeFiles/pioasm.dir/ada_output.cpp.o.d -o CMakeFiles/pioasm.dir/ada_output.cpp.o -c /home/corey/pico-sdk/tools/pioasm/ada_output.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/ada_output.cpp.o -MF CMakeFiles/pioasm.dir/ada_output.cpp.o.d -o CMakeFiles/pioasm.dir/ada_output.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/ada_output.cpp
 
 CMakeFiles/pioasm.dir/ada_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/ada_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/ada_output.cpp > CMakeFiles/pioasm.dir/ada_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/ada_output.cpp > CMakeFiles/pioasm.dir/ada_output.cpp.i
 
 CMakeFiles/pioasm.dir/ada_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/ada_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/ada_output.cpp -o CMakeFiles/pioasm.dir/ada_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/ada_output.cpp -o CMakeFiles/pioasm.dir/ada_output.cpp.s
 
 CMakeFiles/pioasm.dir/go_output.cpp.o: CMakeFiles/pioasm.dir/flags.make
-CMakeFiles/pioasm.dir/go_output.cpp.o: /home/corey/pico-sdk/tools/pioasm/go_output.cpp
+CMakeFiles/pioasm.dir/go_output.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/go_output.cpp
 CMakeFiles/pioasm.dir/go_output.cpp.o: CMakeFiles/pioasm.dir/compiler_depend.ts
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/go_output.cpp.o -MF CMakeFiles/pioasm.dir/go_output.cpp.o.d -o CMakeFiles/pioasm.dir/go_output.cpp.o -c /home/corey/pico-sdk/tools/pioasm/go_output.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/go_output.cpp.o -MF CMakeFiles/pioasm.dir/go_output.cpp.o.d -o CMakeFiles/pioasm.dir/go_output.cpp.o -c /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/go_output.cpp
 
 CMakeFiles/pioasm.dir/go_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pioasm.dir/go_output.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/pico-sdk/tools/pioasm/go_output.cpp > CMakeFiles/pioasm.dir/go_output.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/go_output.cpp > CMakeFiles/pioasm.dir/go_output.cpp.i
 
 CMakeFiles/pioasm.dir/go_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pioasm.dir/go_output.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/pico-sdk/tools/pioasm/go_output.cpp -o CMakeFiles/pioasm.dir/go_output.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/go_output.cpp -o CMakeFiles/pioasm.dir/go_output.cpp.s
 
 # Object files for target pioasm
 pioasm_OBJECTS = \
@@ -254,6 +254,6 @@ CMakeFiles/pioasm.dir/clean:
 .PHONY : CMakeFiles/pioasm.dir/clean
 
 CMakeFiles/pioasm.dir/depend:
-	cd /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corey/pico-sdk/tools/pioasm /home/corey/pico-sdk/tools/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/pioasm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/pioasm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pioasm.dir/depend
 

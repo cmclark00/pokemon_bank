@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/gen/lexer.cpp.o: \
- /home/corey/pico-sdk/tools/pioasm/gen/lexer.cpp \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/lexer.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -132,13 +132,13 @@ CMakeFiles/pioasm.dir/gen/lexer.cpp.o: \
  /usr/include/c++/15/bits/functional_hash.h \
  /usr/include/c++/15/bits/hash_bytes.h \
  /usr/include/c++/15/bits/basic_string.tcc \
- /home/corey/pico-sdk/tools/pioasm/pio_assembler.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_assembler.h \
  /usr/include/c++/15/algorithm /usr/include/c++/15/bits/stl_algo.h \
  /usr/include/c++/15/bits/algorithmfwd.h \
  /usr/include/c++/15/bits/stl_heap.h \
  /usr/include/c++/15/bits/uniform_int_dist.h \
  /usr/include/c++/15/bits/stl_tempbuf.h \
- /home/corey/pico-sdk/tools/pioasm/gen/parser.hpp \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/parser.hpp \
  /usr/include/c++/15/fstream /usr/include/c++/15/istream \
  /usr/include/c++/15/ios /usr/include/c++/15/exception \
  /usr/include/c++/15/bits/exception_ptr.h \
@@ -188,7 +188,7 @@ CMakeFiles/pioasm.dir/gen/lexer.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc /usr/include/c++/15/sstream \
  /usr/include/c++/15/bits/sstream.tcc \
- /home/corey/pico-sdk/tools/pioasm/pio_types.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_types.h \
  /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -217,14 +217,14 @@ CMakeFiles/pioasm.dir/gen/lexer.cpp.o: \
  /usr/include/c++/15/bits/atomic_base.h \
  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
  /usr/include/c++/15/backward/auto_ptr.h \
- /home/corey/pico-sdk/tools/pioasm/gen/location.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/location.h \
  /usr/include/c++/15/iostream \
- /home/corey/pico-sdk/tools/pioasm/pio_enums.h \
- /home/corey/pico-sdk/tools/pioasm/gen/location.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/pio_enums.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/location.h \
  /usr/include/c++/15/cassert /usr/include/assert.h \
- /home/corey/pico-sdk/tools/pioasm/output_format.h \
- /home/corey/pico-sdk/tools/pioasm/gen/parser.hpp /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/output_format.h \
+ /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/gen/parser.hpp \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \

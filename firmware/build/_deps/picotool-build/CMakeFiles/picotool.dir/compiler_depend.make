@@ -683,6 +683,38 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/corey/.openclaw/workspa
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
 
 CMakeFiles/picotool.dir/main.cpp.o: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/main.cpp \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/aes.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/bignum.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/build_info.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/check_config.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecp.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_time.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_util.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/private_access.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha256.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/host/pico_platform/include/pico/platform.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/bintool.h \
   /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/metadata.h \
@@ -698,38 +730,6 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/corey/.openclaw/workspace/clawd_projec
   /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/otp.h \
   /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /home/corey/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
-  /home/corey/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
-  /home/corey/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/corey/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/corey/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
-  /home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/corey/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/corey/pico-sdk/src/host/pico_platform/include/pico/platform.h \
-  /home/corey/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  /home/corey/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
-  /home/corey/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/corey/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1466,8 +1466,6 @@ CMakeFiles/picotool.dir/data_locs.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libc.so:
 
-/usr/lib/x86_64-linux-gnu/crti.o:
-
 /usr/lib/x86_64-linux-gnu/Scrt1.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
@@ -1495,8 +1493,6 @@ errors/liberrors.a:
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
@@ -1592,6 +1588,8 @@ bintool/libbintool.a:
 
 /usr/include/c++/15/cassert:
 
+/usr/include/c++/15/bitset:
+
 /usr/include/c++/15/bits/valarray_array.tcc:
 
 /usr/include/linux/ioctl.h:
@@ -1660,46 +1658,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/asm-generic/ioctls.h:
 
-/home/corey/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
-
-/home/corey/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
-
-/home/corey/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
-/home/corey/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
-
-/home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
-
-/home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
-
-/home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
-
-/home/corey/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
-
-/home/corey/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
-/home/corey/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h:
-
-/usr/include/c++/15/bitset:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
-
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/otp.h:
 
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
@@ -1716,15 +1674,51 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/bintool.h:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/host/pico_platform/include/pico/platform.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picobin_headers/include/boot/picobin.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_time.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecp.h:
+
+/usr/lib/x86_64-linux-gnu/crti.o:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_x509.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_ssl.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/check_config.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/aes.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h:
-
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/private_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -1770,6 +1764,8 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info.h:
+
 /usr/include/c++/15/ext/alloc_traits.h:
 
 /usr/include/linux/types.h:
@@ -1777,8 +1773,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/c++/15/cstring:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -1804,13 +1798,11 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/include/c++/15/bits/ostream_insert.h:
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h:
 
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h:
+/usr/include/c++/15/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -1825,6 +1817,8 @@ CMakeFiles/picotool.dir/main.cpp.o:
 /usr/include/c++/15/istream:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_util.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
@@ -1855,6 +1849,8 @@ CMakeFiles/picotool.dir/main.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
 /usr/include/c++/15/bits/streambuf_iterator.h:
 
@@ -1900,8 +1896,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/home/corey/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
-
 /usr/include/linux/errno.h:
 
 /usr/include/c++/15/new:
@@ -1915,8 +1909,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/15/initializer_list:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h:
 
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/lib/whereami/whereami++.h:
 
@@ -1935,6 +1927,8 @@ CMakeFiles/picotool.dir/main.cpp.o:
 /usr/include/c++/15/bits/uses_allocator.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha256.h:
 
 /usr/include/c++/15/bits/localefwd.h:
 
@@ -1966,6 +1960,8 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/15/bits/stl_vector.h:
@@ -1982,8 +1978,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/alloc_traits.h:
 
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h:
 
 /usr/include/c++/15/bits/move.h:
@@ -1993,8 +1987,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 /usr/include/c++/15/bits/valarray_before.h:
 
 /usr/include/c++/15/bits/cxxabi_forced.h:
-
-/home/corey/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
 /usr/include/c++/15/ext/atomicity.h:
 
@@ -2051,6 +2043,8 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ctr_drbg.h:
 
 enc_bootloader_mbedtls_elf.h:
 
@@ -2164,6 +2158,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/build_info.h:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/15/system_error:
@@ -2177,8 +2173,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h:
-
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h:
 
@@ -2199,8 +2193,6 @@ enc_bootloader_elf.h:
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/data_locs.h:
 
 /usr/include/c++/15/bits/regex.h:
-
-/home/corey/pico-sdk/src/host/pico_platform/include/pico/platform.h:
 
 /usr/include/asm-generic/types.h:
 
@@ -2244,8 +2236,6 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/assert.h:
 
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
-
 /usr/include/c++/15/fstream:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
@@ -2262,9 +2252,9 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/c++/15/bits/sstream.tcc:
 
-/usr/include/c++/15/bits/stl_algo.h:
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h:
 
-/home/corey/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
+/usr/include/c++/15/bits/stl_algo.h:
 
 /usr/include/c++/15/bits/exception_defines.h:
 
@@ -2284,9 +2274,13 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/c++/15/csignal:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h:
+
 /usr/include/c++/15/exception:
 
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/bignum.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -2308,6 +2302,8 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/signal.h:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+
 /usr/include/c++/15/bits/exception.h:
 
 /usr/include/strings.h:
@@ -2319,6 +2315,8 @@ elf2uf2/libelf2uf2.a:
 /usr/include/c++/15/sstream:
 
 /usr/include/asm-generic/ioctl.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
 /usr/include/c++/15/stdexcept:
 
@@ -2333,8 +2331,6 @@ elf2uf2/libelf2uf2.a:
 /usr/include/c++/15/limits:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h:
-
-/home/corey/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
@@ -2386,6 +2382,8 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h:
 
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h:
+
 /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
@@ -2393,6 +2391,8 @@ elf2uf2/libelf2uf2.a:
 /usr/include/c++/15/ctime:
 
 /usr/include/c++/15/stdlib.h:
+
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /usr/include/inttypes.h:
 

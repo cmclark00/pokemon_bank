@@ -324,7 +324,7 @@ PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/home/corey/pico-sdk
+PICO_SDK_PATH:FILEPATH=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src
 
 //Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/picotool-build/lib/nlohmann_json

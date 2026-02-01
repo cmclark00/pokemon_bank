@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/pico_sdk_version.cmake"
+  "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/CMakeLists.txt"
+  "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/cmake/pioasmConfig.cmake"
+  "/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/tools/pioasm/version.h.in"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
-  "/home/corey/pico-sdk/pico_sdk_version.cmake"
-  "/home/corey/pico-sdk/tools/pioasm/CMakeLists.txt"
-  "/home/corey/pico-sdk/tools/pioasm/cmake/pioasmConfig.cmake"
-  "/home/corey/pico-sdk/tools/pioasm/version.h.in"
   "/usr/share/cmake-3.31/Modules/BasicConfigVersion-ExactVersion.cmake.in"
   "/usr/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in"
   "/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"

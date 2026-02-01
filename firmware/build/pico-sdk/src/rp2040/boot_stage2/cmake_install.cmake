@@ -1,4 +1,4 @@
-# Install script for directory: /home/corey/pico-sdk/src/rp2040/boot_stage2
+# Install script for directory: /home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/_deps/pico_sdk-src/src/rp2040/boot_stage2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
