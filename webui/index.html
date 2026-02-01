@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Bank - WebUI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎮 Pokemon Bank</h1>
+        <div id="connection-status">
+            <span id="status-indicator" class="disconnected"></span>
+            <span id="status-text">Disconnected</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Connection Panel -->
+        <section id="connection-panel" class="panel">
+            <h2>Device Connection</h2>
+            <div class="button-group">
+                <button id="connect-btn" class="primary">Connect to Pokemon Bank</button>
+                <button id="disconnect-btn" class="secondary" disabled>Disconnect</button>
+            </div>
+            <div id="device-info" class="info-box hidden">
+                <p><strong>Storage:</strong> <span id="storage-count">0</span> / <span id="storage-max">20</span> Pokemon</p>
+            </div>
+        </section>
+
+        <!-- Pokemon List -->
+        <section id="pokemon-list-panel" class="panel">
+            <h2>Stored Pokemon</h2>
+            <div id="pokemon-grid" class="pokemon-grid">
+                <p class="placeholder">Connect to device to view Pokemon</p>
+            </div>
+        </section>
+
+        <!-- Pokemon Detail/Editor Modal -->
+        <div id="pokemon-modal" class="modal hidden">
+            <div class="modal-content">
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+                
+                <div class="pokemon-detail">
+                    <div class="pokemon-header">
+                        <img id="detail-sprite" src="" alt="" class="pokemon-sprite-large">
+                        <div class="pokemon-info">
+                            <h2 id="detail-nickname">---</h2>
+                            <p id="detail-species" class="species-name">---</p>
+                            <p id="detail-level">Level: ---</p>
+                            <p id="detail-ot">OT: ---</p>
+                        </div>
+                    </div>
+
+                    <div class="stats-section">
+                        <h3>Stats</h3>
+                        <div class="stat-grid">
+                            <div class="stat-row">
+                                <span class="stat-label">HP</span>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar hp-bar" id="stat-hp-bar"></div>
+                                </div>
+                                <span class="stat-value" id="stat-hp">---</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">ATK</span>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar atk-bar" id="stat-atk-bar"></div>
+                                </div>
+                                <span class="stat-value" id="stat-atk">---</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">DEF</span>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar def-bar" id="stat-def-bar"></div>
+                                </div>
+                                <span class="stat-value" id="stat-def">---</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">SPD</span>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar spd-bar" id="stat-spd-bar"></div>
+                                </div>
+                                <span class="stat-value" id="stat-spd">---</span>
+                            </div>
+                            <div class="stat-row">
+                                <span class="stat-label">SPC</span>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar spc-bar" id="stat-spc-bar"></div>
+                                </div>
+                                <span class="stat-value" id="stat-spc">---</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="moves-section">
+                        <h3>Moves</h3>
+                        <div class="moves-grid" id="moves-grid">
+                            <div class="move-slot">---</div>
+                            <div class="move-slot">---</div>
+                            <div class="move-slot">---</div>
+                            <div class="move-slot">---</div>
+                        </div>
+                    </div>
+
+                    <div class="edit-section">
+                        <h3>Edit Pokemon</h3>
+                        <div class="edit-form">
+                            <div class="form-row">
+                                <label for="edit-nickname">Nickname:</label>
+                                <input type="text" id="edit-nickname" maxlength="10" placeholder="Max 10 characters">
+                            </div>
+                            <div class="form-row">
+                                <label>Moves:</label>
+                                <select id="edit-move-0" class="move-select"></select>
+                                <select id="edit-move-1" class="move-select"></select>
+                                <select id="edit-move-2" class="move-select"></select>
+                                <select id="edit-move-3" class="move-select"></select>
+                            </div>
+                            <div class="button-group">
+                                <button id="save-btn" class="primary" onclick="savePokemon()">Save Changes</button>
+                                <button id="delete-btn" class="danger" onclick="deletePokemon()">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Pokemon Bank WebUI v1.0 | WebSerial API required (Chrome/Edge)</p>
+    </footer>
+
+    <script src="pokemon.js"></script>
+    <script src="serial.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

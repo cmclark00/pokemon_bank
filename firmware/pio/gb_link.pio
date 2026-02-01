@@ -1,0 +1,149 @@
+; Game Boy Link Cable Slave Protocol for RP2040
+; 
+; The Game Boy link cable uses a synchronous serial protocol similar to SPI.
+; When trading Pokemon, the Game Boy acts as master (generates clock).
+; We act as slave (respond to clock).
+;
+; Protocol details:
+; - 8 bits per transfer, MSB first
+; - Clock idle high (CPOL=1)
+; - Data changes on falling edge, sampled on rising edge (CPHA=1)
+; - Typical speed: ~8192 Hz (but we must handle any speed)
+;
+; Pin assignments (matching Game Boy Zero Link Board):
+; - GP0 = SC (Serial Clock) - INPUT, directly driven by Game Boy
+; - GP1 = SI (Serial In to GB) - OUTPUT, we drive this
+; - GP2 = SO (Serial Out from GB) - INPUT, Game Boy drives this
+;
+; Note: Despite names, SI/SO are from Game Boy's perspective:
+; - SI = data TO Game Boy (we output)
+; - SO = data FROM Game Boy (we input)
+
+.program gb_link_slave
+.side_set 1 opt
+
+; We use:
+; - OUT pin: GP1 (SI - our data to Game Boy)
+; - IN pin: GP2 (SO - data from Game Boy)  
+; - JMP pin: GP0 (SC - clock from Game Boy)
+; - Side-set: GP1 (also SI, for immediate output)
+
+; The state machine waits for clock edges and shifts data.
+; TX FIFO contains byte to send, RX FIFO receives byte from GB.
+
+public entry_point:
+.wrap_target
+    ; Wait for clock to go LOW (start of transfer or idle)
+wait_low:
+    jmp pin wait_low        ; Wait while clock is HIGH
+    
+    ; Clock is LOW - output next bit (MSB first)
+    out pins, 1             ; Shift out 1 bit to SI pin
+    
+    ; Wait for clock to go HIGH (rising edge)
+wait_high:
+    jmp pin sample          ; If clock HIGH, sample data
+    jmp wait_high           ; Keep waiting for rising edge
+    
+sample:
+    in pins, 1              ; Sample SO pin into ISR
+.wrap
+
+% c-sdk {
+#include "hardware/gpio.h"
+#include "hardware/clocks.h"
+
+// Pin definitions for Game Boy Zero Link Board
+#define GB_PIN_SC   0   // Serial Clock (from Game Boy)
+#define GB_PIN_SI   1   // Serial In (TO Game Boy - we output this)
+#define GB_PIN_SO   2   // Serial Out (FROM Game Boy - we input this)
+#define GB_PIN_SD   3   // SD line (directly directly directly directly directly directly
+
+static inline void gb_link_slave_program_init(PIO pio, uint sm, uint offset) {
+    pio_sm_config c = gb_link_slave_program_get_default_config(offset);
+    
+    // OUT pin: GP1 (SI - data to Game Boy)
+    sm_config_set_out_pins(&c, GB_PIN_SI, 1);
+    
+    // IN pin: GP2 (SO - data from Game Boy)
+    sm_config_set_in_pins(&c, GB_PIN_SO);
+    
+    // JMP pin: GP0 (SC - clock)
+    sm_config_set_jmp_pin(&c, GB_PIN_SC);
+    
+    // Side-set on GP1 (optional, not used in current program)
+    sm_config_set_sideset_pins(&c, GB_PIN_SI);
+    
+    // Shift OUT to the left (MSB first), autopull at 8 bits
+    sm_config_set_out_shift(&c, false, true, 8);
+    
+    // Shift IN to the left (MSB first), autopush at 8 bits
+    sm_config_set_in_shift(&c, false, true, 8);
+    
+    // Run as fast as possible - we're reacting to external clock
+    // Game Boy clock is ~8kHz, we need to be MUCH faster to catch edges
+    sm_config_set_clkdiv(&c, 1.0f);
+    
+    // Initialize pins
+    // SC (GP0): Input with pull-up (clock from GB, idles high)
+    pio_gpio_init(pio, GB_PIN_SC);
+    gpio_set_pulls(GB_PIN_SC, true, false);  // Pull-up
+    pio_sm_set_consecutive_pindirs(pio, sm, GB_PIN_SC, 1, false);  // Input
+    
+    // SI (GP1): Output (data TO Game Boy)
+    pio_gpio_init(pio, GB_PIN_SI);
+    pio_sm_set_consecutive_pindirs(pio, sm, GB_PIN_SI, 1, true);  // Output
+    
+    // SO (GP2): Input with pull-up (data FROM Game Boy)
+    pio_gpio_init(pio, GB_PIN_SO);
+    gpio_set_pulls(GB_PIN_SO, true, false);  // Pull-up
+    pio_sm_set_consecutive_pindirs(pio, sm, GB_PIN_SO, 1, false);  // Input
+    
+    // Bypass input synchronizer for faster response
+    // This is important for catching the clock edges reliably
+    hw_set_bits(&pio->input_sync_bypass, (1u << GB_PIN_SC) | (1u << GB_PIN_SO));
+    
+    // Initialize state machine at entry point
+    pio_sm_init(pio, sm, offset + gb_link_slave_offset_entry_point, &c);
+}
+
+// Queue a byte to send on next transfer
+static inline void gb_link_send_byte(PIO pio, uint sm, uint8_t data) {
+    pio_sm_put_blocking(pio, sm, data);
+}
+
+// Check if received data is available
+static inline bool gb_link_rx_available(PIO pio, uint sm) {
+    return !pio_sm_is_rx_fifo_empty(pio, sm);
+}
+
+// Get received byte (non-blocking, check availability first!)
+static inline uint8_t gb_link_get_byte(PIO pio, uint sm) {
+    return (uint8_t)pio_sm_get(pio, sm);
+}
+
+// Get received byte (blocking)
+static inline uint8_t gb_link_get_byte_blocking(PIO pio, uint sm) {
+    return (uint8_t)pio_sm_get_blocking(pio, sm);
+}
+
+// Enable the state machine
+static inline void gb_link_enable(PIO pio, uint sm) {
+    pio_sm_set_enabled(pio, sm, true);
+}
+
+// Disable the state machine
+static inline void gb_link_disable(PIO pio, uint sm) {
+    pio_sm_set_enabled(pio, sm, false);
+}
+
+// Clear FIFOs and restart
+static inline void gb_link_pio_reset(PIO pio, uint sm, uint offset) {
+    pio_sm_set_enabled(pio, sm, false);
+    pio_sm_clear_fifos(pio, sm);
+    pio_sm_restart(pio, sm);
+    pio_sm_exec(pio, sm, pio_encode_jmp(offset + gb_link_slave_offset_entry_point));
+    pio_sm_set_enabled(pio, sm, true);
+}
+
+%}

@@ -1,0 +1,7 @@
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/pioasm.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/edit_cache.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/list_install_components.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/install.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/install/local.dir
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm/CMakeFiles/install/strip.dir

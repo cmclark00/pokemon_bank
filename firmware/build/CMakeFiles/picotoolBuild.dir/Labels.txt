@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/picotoolBuild
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/picotoolBuild.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/CMakeFiles/picotoolBuild-complete.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

@@ -1,0 +1,5 @@
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm-install/pioasm/pioasm
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm-install/pioasm/pioasmTargets.cmake
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm-install/pioasm/pioasmConfig.cmake
+/home/corey/.openclaw/workspace/clawd_project/clawd/projects/pokemon-bank/firmware/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
