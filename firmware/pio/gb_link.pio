@@ -33,31 +33,53 @@
 
 public entry_point:
 .wrap_target
-    ; Wait for clock to go LOW (start of transfer or idle)
-wait_low:
-    jmp pin wait_low        ; Wait while clock is HIGH
+    ; Wait for clock to go LOW (falling edge = start of bit)
+    wait 0 gpio 2           ; Wait for clock LOW (GP2 = SC)
     
-    ; Clock is LOW - output next bit (MSB first)
-    out pins, 1             ; Shift out 1 bit to SI pin
+    ; Pull byte from TX FIFO (non-blocking, keeps last value if empty)
+    pull noblock
     
-    ; Wait for clock to go HIGH (rising edge)
-wait_high:
-    jmp pin sample          ; If clock HIGH, sample data
-    jmp wait_high           ; Keep waiting for rising edge
+    ; FIFO is 32 bits, our byte is in the low 8 bits
+    ; Shift out the upper 24 bits to align our data
+    out null, 24
     
-sample:
-    in pins, 1              ; Sample SO pin into ISR
+    ; Output the MSB of our byte
+    out pins, 1
+    
+    ; Wait for clock to go HIGH (rising edge = sample point)
+    wait 1 gpio 2           ; Wait for clock HIGH
+    
+    ; Sample input bit from Game Boy
+    in pins, 1
+    
+    ; Loop for remaining 7 bits
+    set x, 6
+bitloop:
+    wait 0 gpio 2           ; Wait for falling edge
+    out pins, 1             ; Output next bit
+    wait 1 gpio 2           ; Wait for rising edge
+    in pins, 1              ; Sample input bit
+    jmp x-- bitloop         ; Repeat for all 8 bits
+    
+    ; Push received byte to RX FIFO
+    push noblock
 .wrap
 
 % c-sdk {
 #include "hardware/gpio.h"
 #include "hardware/clocks.h"
 
-// Pin definitions for Game Boy Zero Link Board
-#define GB_PIN_SC   0   // Serial Clock (from Game Boy)
-#define GB_PIN_SI   1   // Serial In (TO Game Boy - we output this)
-#define GB_PIN_SO   2   // Serial Out (FROM Game Boy - we input this)
-#define GB_PIN_SD   3   // SD line (directly directly directly directly directly directly
+// Pin definitions - must match your hardware!
+// 
+// For GBZEROLINK board (GP0=SC, GP1=SI, GP2=SO):
+//   #define GB_PIN_SC   0
+//   #define GB_PIN_SI   1
+//   #define GB_PIN_SO   2
+//
+// For pico-gb-printer / Raphael-Boichot PCB (GP2=SCK, GP0=SIN, GP3=SOUT):
+#define GB_PIN_SC   2   // Serial Clock (from Game Boy) - GP2
+#define GB_PIN_SI   3   // Serial In (TO Game Boy - we output this) - GP3 (SOUT)
+#define GB_PIN_SO   0   // Serial Out (FROM Game Boy - we input this) - GP0 (SIN)
 
 static inline void gb_link_slave_program_init(PIO pio, uint sm, uint offset) {
     pio_sm_config c = gb_link_slave_program_get_default_config(offset);
@@ -74,11 +96,11 @@ static inline void gb_link_slave_program_init(PIO pio, uint sm, uint offset) {
     // Side-set on GP1 (optional, not used in current program)
     sm_config_set_sideset_pins(&c, GB_PIN_SI);
     
-    // Shift OUT to the left (MSB first), autopull at 8 bits
-    sm_config_set_out_shift(&c, false, true, 8);
+    // Shift OUT to the left (MSB first), no autopull (we pull manually)
+    sm_config_set_out_shift(&c, false, false, 32);
     
-    // Shift IN to the left (MSB first), autopush at 8 bits
-    sm_config_set_in_shift(&c, false, true, 8);
+    // Shift IN to the left (MSB first), no autopush (we push manually)
+    sm_config_set_in_shift(&c, false, false, 32);
     
     // Run as fast as possible - we're reacting to external clock
     // Game Boy clock is ~8kHz, we need to be MUCH faster to catch edges

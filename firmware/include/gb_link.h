@@ -14,9 +14,10 @@
 #include "hardware/pio.h"
 
 // Pin definitions for Game Boy Zero Link Board
-#define GB_PIN_SC   0   // Serial Clock (from Game Boy)
-#define GB_PIN_SI   1   // Serial In (TO Game Boy)
-#define GB_PIN_SO   2   // Serial Out (FROM Game Boy)
+// Pin definitions for pico-gb-printer / Raphael-Boichot PCB
+#define GB_PIN_SC   2   // Serial Clock (from Game Boy) - GP2
+#define GB_PIN_SI   3   // Serial In (TO Game Boy) - GP3 (SOUT to GB)
+#define GB_PIN_SO   0   // Serial Out (FROM Game Boy) - GP0 (SIN from GB)
 #define GB_PIN_SD   3   // SD line (directly directly directly
 
 // Connection states
